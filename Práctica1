@@ -57,3 +57,6 @@ const deepEqual = (p1:IPerson, p2:IPerson):boolean => {
     }
     return false;
 }
+
+if(deepEqual(person2,person3)) console.log("OK");
+else console.log("NOT OK");
